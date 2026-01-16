@@ -1,0 +1,7 @@
+unsloth_compiled_cache/
+grpo_out/
+
+.vscode/
+wandb/
+
+*.xlsx
