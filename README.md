@@ -112,6 +112,11 @@ The GRPO trainer optimizes the model based on the following weighted reward comp
 #### The dataset used for training and evaluation in ALOPE-RL is publicly available on Hugging Face:
 #### 👉 https://huggingface.co/datasets/surrey-nlp/ALOPE-RL-Dataset
 ---
+##  Models
+
+#### The trained models are publicly available on Hugging Face:
+#### 👉 [https://huggingface.co/datasets/surrey-nlp/ALOPE-RL-Dataset](https://huggingface.co/collections/surrey-nlp/alope-rl-models)
+
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
