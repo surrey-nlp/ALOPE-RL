@@ -97,7 +97,7 @@ The ALOPE-RL architecture consists of:
 
 ## 📊 Reward Function Details
 
-The GRPO trainer optimizes the model based on the following weighted reward components:
+The GRPO trainer optimizes the model based on the following weighted reward components. The weights and the rewards can be customized based on the requirements.
 
 1.  **Exact Score Reward (30%)**: Numerical proximity to the gold DA score.
 2.  **Error Type Reward (25%)**: Jaccard similarity between predicted and gold error categories.
@@ -105,8 +105,7 @@ The GRPO trainer optimizes the model based on the following weighted reward comp
 4.  **Description Reward (10%)**: BERTScore F1 between generated TQR and gold remarks.
 5.  **Length Reward (10%)**: Ensuring the description length is within the expected range.
 6.  **Format Reward (10%)**: Strict adherence to the required XML schema (`<reasoning>`, `<answer>`, etc.).
-
-We can customize the weights and the rewards.
+   
 ---
 
 ## 📜 License
