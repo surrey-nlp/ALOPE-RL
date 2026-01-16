@@ -107,7 +107,11 @@ The GRPO trainer optimizes the model based on the following weighted reward comp
 6.  **Format Reward (10%)**: Strict adherence to the required XML schema (`<reasoning>`, `<answer>`, etc.).
    
 ---
+## 📦 Dataset
 
+The dataset used for training and evaluation in ALOPE-RL is publicly available on Hugging Face:
+👉 https://huggingface.co/datasets/surrey-nlp/ALOPE-RL-Dataset
+---
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
