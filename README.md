@@ -106,6 +106,7 @@ The GRPO trainer optimizes the model based on the following weighted reward comp
 5.  **Length Reward (10%)**: Ensuring the description length is within the expected range.
 6.  **Format Reward (10%)**: Strict adherence to the required XML schema (`<reasoning>`, `<answer>`, etc.).
 
+We can customize the weights and the rewards.
 ---
 
 ## 📜 License
